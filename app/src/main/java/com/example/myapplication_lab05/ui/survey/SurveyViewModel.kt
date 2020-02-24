@@ -1,4 +1,4 @@
-package com.example.myapplication_lab05.ui.gallery
+package com.example.myapplication_lab05.ui.survey
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

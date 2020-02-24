@@ -1,4 +1,4 @@
-package com.example.myapplication_lab05.ui.gallery
+package com.example.myapplication_lab05.ui.survey
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.myapplication_lab05.R
-import com.example.myapplication_lab05.ui.share.ResultFragment
+import com.example.myapplication_lab05.ui.result.ResultFragment
 
 class SurveyFragment : Fragment() {
 

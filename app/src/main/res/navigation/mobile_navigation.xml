@@ -16,31 +16,8 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.myapplication_lab05.ui.gallery.SurveyFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_survey" />
+        android:name="com.example.myapplication_lab05.ui.about_of.AboutOfFragment"
+        android:label="About Of"
+        tools:layout="@layout/fragment_about_of" />
 
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.myapplication_lab05.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-
-    <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.example.myapplication_lab05.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
-
-    <fragment
-        android:id="@+id/nav_share"
-        android:name="com.example.myapplication_lab05.ui.share.ResultFragment"
-        android:label="@string/menu_share"
-        tools:layout="@layout/fragment_share" />
-
-    <fragment
-        android:id="@+id/nav_send"
-        android:name="com.example.myapplication_lab05.ui.send.SendFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
 </navigation>

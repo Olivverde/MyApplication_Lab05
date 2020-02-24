@@ -1,4 +1,4 @@
-package com.example.myapplication_lab05.ui.share
+package com.example.myapplication_lab05.ui.result
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,9 +11,8 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.myapplication_lab05.R
-import com.example.myapplication_lab05.ui.gallery.SurveyViewModel
+import com.example.myapplication_lab05.ui.survey.SurveyViewModel
 import com.example.myapplication_lab05.ui.home.HomeFragment
-import kotlinx.android.synthetic.main.nav_header_main.*
 
 class ResultFragment : Fragment() {
 

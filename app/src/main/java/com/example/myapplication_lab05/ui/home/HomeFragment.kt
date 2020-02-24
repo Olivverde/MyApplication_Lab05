@@ -10,7 +10,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.myapplication_lab05.R
-import com.example.myapplication_lab05.ui.gallery.SurveyFragment
+import com.example.myapplication_lab05.ui.survey.SurveyFragment
 import kotlinx.android.synthetic.main.fragment_home.*
 
 class HomeFragment : Fragment() {
