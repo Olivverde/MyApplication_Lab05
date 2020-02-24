@@ -15,4 +15,11 @@
     <string name="menu_send">Send</string>
     <string name="StartButton">Start survey</string>
     <string name="surveyImage">TODO</string>
+    <string name="nextButton">Next</string>
+    <string name="answerEdit">Answer</string>
+    <string name="see_answers">See answers</string>
+    <string name="new_survey">New Survey</string>
+    <string name="results">Results</string>
+    <string name="e_mail">dele19270@uvg.edu.gt</string>
+    <string name="name">Oliver Milian</string>
 </resources>
