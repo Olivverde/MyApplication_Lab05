@@ -13,18 +13,19 @@ import com.example.myapplication_lab05.R
 
 class AboutOfFragment : Fragment() {
 
-    private lateinit var AboutOfViewModel: AboutOfViewModel
+    private lateinit var aboutOfViewModel: AboutOfViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        AboutOfViewModel = ViewModelProviders.of(this).get(AboutOfViewModel::class.java)
+        aboutOfViewModel =
+            ViewModelProviders.of(this).get(AboutOfViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_about_of, container, false)
         val textView: TextView = root.findViewById(R.id.text_gallery)
         val image: ImageView = root.findViewById(R.id.ProfileImage)
-        AboutOfViewModel.text.observe(this, Observer {
+        aboutOfViewModel.text.observe(this, Observer {
             textView.text = it
             image.setImageResource(R.drawable.ahegao)
         })
